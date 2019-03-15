@@ -19,7 +19,7 @@ Just download the files and click on _**index.html**_ and you are ready to go.
 
 
 ## License
----
+
 CC BY 4.0
 
 
