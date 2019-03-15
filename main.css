@@ -1,0 +1,93 @@
+
+span.navbar-brand {
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+}
+
+.container{
+  text-align: center;
+}
+.containerBig{
+  border: 2px solid #eee;
+  display: inline-block;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #bbb;
+}
+
+.containerBig::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-one::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-two::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-three::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9{
+  width: 100px;
+  height: 100px;
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9{
+  float: left;
+  border: 1px solid #e4e4e4;
+  margin: 1px 1px;
+  border-radius: 5px;
+}
+
+.tile1{
+  background-image: url(./images/one.png);
+}
+
+.tile2{
+  background-image: url(./images/two.png);
+}
+
+.tile3{
+  background-image: url(./images/three.png);
+}
+
+.tile4{
+  background-image: url(./images/four.png);
+}
+
+.tile5{
+  background-image: url(./images/five.png);
+}
+
+.tile6{
+  background-image: url(./images/six.png);
+}
+
+.tile7{
+  background-image: url(./images/seven.png);
+}
+
+.tile8{
+  background-image: url(./images/eight.png);
+}
+
+.tile9{
+  background-image: url(./images/nine.png);
+  opacity: .2;
+}
+
+button.btn {
+  display: inline-block;
+}
